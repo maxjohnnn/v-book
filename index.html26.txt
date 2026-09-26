@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Writing Job</title>
+
+<!-- ================= META PIXEL ================= -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;
+n.loaded=!0;
+n.version='2.0';
+n.queue=[];
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', 'YOUR_PIXEL_ID');
+fbq('track', 'PageView');
+</script>
+<!-- ============== END META PIXEL ============== -->
+
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f3f6fa;
+    color:#182334;
+}
+
+.page{
+    width:100%;
+    max-width:480px;
+    min-height:100vh;
+    margin:auto;
+    background:#ffffff;
+    padding:25px 18px;
+}
+
+/* HEADER */
+
+.header{
+    text-align:center;
+    padding:10px 5px 22px;
+}
+
+.book{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+.header h1{
+    font-size:29px;
+    line-height:1.2;
+    margin-bottom:10px;
+}
+
+.header h1 span{
+    color:#1769e0;
+}
+
+.header p{
+    color:#697586;
+    font-size:14px;
+    line-height:1.6;
+}
+
+/* MAIN CARD */
+
+.main-card{
+    background:#f7f9fc;
+    border:1px solid #e4e9f0;
+    border-radius:16px;
+    padding:20px;
+    margin-bottom:16px;
+}
+
+.main-card h2{
+    font-size:20px;
+    margin-bottom:9px;
+}
+
+.main-card p{
+    color:#687386;
+    font-size:14px;
+    line-height:1.6;
+}
+
+/* INFORMATION BOXES */
+
+.info{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    margin-bottom:18px;
+}
+
+.info-box{
+    padding:15px 8px;
+    text-align:center;
+    background:#ffffff;
+    border:1px solid #e4e9f0;
+    border-radius:12px;
+}
+
+.info-box .icon{
+    font-size:25px;
+    margin-bottom:7px;
+}
+
+.info-box strong{
+    display:block;
+    font-size:14px;
+    margin-bottom:4px;
+}
+
+.info-box small{
+    color:#7b8492;
+    font-size:11px;
+}
+
+/* REQUIREMENTS */
+
+.section{
+    margin-bottom:20px;
+}
+
+.section h2{
+    font-size:19px;
+    margin-bottom:11px;
+}
+
+.item{
+    background:#f7f9fc;
+    padding:12px;
+    border-radius:9px;
+    margin-bottom:8px;
+    font-size:13px;
+}
+
+/* APPLY BUTTON */
+
+.apply{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    width:100%;
+    text-align:center;
+    text-decoration:none;
+    background:#1769e0;
+    color:#ffffff;
+    padding:16px 12px;
+    border-radius:12px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:transform .15s ease;
+}
+
+.apply:active{
+    transform:scale(.98);
+}
+
+/* RIGHT CHECKMARK */
+
+.check{
+    width:25px;
+    height:25px;
+    min-width:25px;
+    border-radius:50%;
+    background:#ffffff;
+    color:#1769e0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+    line-height:25px;
+    font-weight:bold;
+}
+
+/* NOTE */
+
+.note{
+    text-align:center;
+    color:#8b94a3;
+    font-size:11px;
+    margin-top:10px;
+}
+
+/* FOOTER */
+
+.footer{
+    text-align:center;
+    color:#a1a8b3;
+    font-size:11px;
+    margin-top:22px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page">
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <div class="book">📚</div>
+
+        <h1>
+            Book <span>Writing Job</span>
+        </h1>
+
+        <p>
+            Looking for writers for online book-writing
+            projects. Work from the comfort of your home.
+        </p>
+
+    </div>
+
+
+    <!-- ABOUT WORK -->
+
+    <div class="main-card">
+
+        <h2>✍️ About The Work</h2>
+
+        <p>
+            Create simple and engaging written content
+            for different book projects. Get project
+            details and guidelines before starting the work.
+        </p>
+
+    </div>
+
+
+    <!-- INFORMATION -->
+
+    <div class="info">
+
+        <div class="info-box">
+
+            <div class="icon">🏠</div>
+
+            <strong>Work From Home</strong>
+
+            <small>Remote work</small>
+
+        </div>
+
+
+        <div class="info-box">
+
+            <div class="icon">⏰</div>
+
+            <strong>Flexible Time</strong>
+
+            <small>Choose your time</small>
+
+        </div>
+
+
+        <div class="info-box">
+
+            <div class="icon">✍️</div>
+
+            <strong>Writing Work</strong>
+
+            <small>Book projects</small>
+
+        </div>
+
+
+        <div class="info-box">
+
+            <div class="icon">📱</div>
+
+            <strong>Online Apply</strong>
+
+            <small>Easy application</small>
+
+        </div>
+
+    </div>
+
+
+    <!-- WHO CAN APPLY -->
+
+    <div class="section">
+
+        <h2>Who Can Apply?</h2>
+
+        <div class="item">
+            ✅ Basic writing skills
+        </div>
+
+        <div class="item">
+            ✅ Hindi or English writing
+        </div>
+
+        <div class="item">
+            ✅ Smartphone or laptop
+        </div>
+
+        <div class="item">
+            ✅ Students and freelancers can apply
+        </div>
+
+    </div>
+
+
+    <!-- APPLY BUTTON -->
+
+    <a
+        href="https://t.me/YOUR_TELEGRAM_LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="apply"
+        onclick="fbq('track', 'Lead');"
+    >
+
+        <span>✍️ APPLY NOW ON TELEGRAM</span>
+
+        <span class="check">✓</span>
+
+    </a>
+
+
+    <div class="note">
+        Click above to get complete job details.
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        © 2026 Book Writing Work
+    </div>
+
+</div>
+
+
+<!-- NOSCRIPT PIXEL -->
+
+<noscript>
+<img
+height="1"
+width="1"
+style="display:none"
+src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
+/>
+</noscript>
+
+</body>
+</html>
